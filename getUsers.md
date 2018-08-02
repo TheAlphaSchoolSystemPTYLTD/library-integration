@@ -15,16 +15,20 @@
    **Required:**
  
    `type [string]`
+
+   `currentstatus [string]` - can only be 'current' or 'noncurrent'
    
    **Optional:**
  
-   none
+   `codeonly [boolean]` - can only be 'true' or 'false' to return employee or student code only
 
    **Conditional:**
 
    `commtype [string]` - only valid where `type` is 'S' (Must be one of 'ALL,TK,')
 
    `updateafter [date]` - only valid where `type` is 'S'
+
+   `includefuture [boolean]` - only valid where `type` is 'S', and can only be 'true' or 'false'
 
 * **Success Response:**
 	
@@ -40,6 +44,7 @@
 		dateOfLeaving: "",
 		updateOn: "04/12/2017",
 		username: "0009134",
+		currentStatus: "current",
 		gender: "F",
 		addresses: [
 			{
@@ -110,6 +115,13 @@
 	}
 	```
 
+	`currentstatus` not 'current' or 'noncurrent'
+	```javascript
+	__invalid: {
+	  [field_name]: "'currentstatus' MUST BE 'current' or 'noncurrent'"
+	}
+	```
+
 	`commtype` is supplied, but `type` is not 'S'
 	```javascript
 	__invalid: {
@@ -123,11 +135,32 @@
 	  "updateafter": "'updateafter' IS ONLY VALID WHERE 'type' IS 'S'"
 	}
 	```
+
+	`codeonly` not a valid boolean
+	```javascript
+	__invalid: {
+	  [field_name]: "'codeonly' MUST BE 'true' or 'false'"
+	}
+	```
+
+	`includefuture` not a valid boolean
+	```javascript
+	__invalid: {
+	  [field_name]: "'includefuture' MUST BE 'true' or 'false'"
+	}
+	```
+
+	`includefuture` is supplied, but `type` is not 'S'
+	```javascript
+	__invalid: {
+	  "includefuture": "'includefuture' IS ONLY VALID WHERE 'type' IS 'S'"
+	}
+	```
 	
 * **Sample Parameters:**
 
   ```javascript
-	type=S&commtype=TK
+	type=S&commtype=TK&currentstatus=current
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

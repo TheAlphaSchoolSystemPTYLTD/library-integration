@@ -26,8 +26,6 @@
 
    `commtype [string]` - only valid where `type` is 'S'
 
-   `updateafter [date]` - only valid where `type` is 'S'
-
 * **Success Response:**
 	
 	```javascript
@@ -42,6 +40,7 @@
 		dateOfLeaving: "",
 		updateOn: "04/12/2017",
 		username: "0009134",
+		currentStatus: "current",
 		gender: "F",
 		addresses: [
 			{
@@ -116,13 +115,6 @@
 	```javascript
 	__invalid: {
 	  "commtype": "'commtype' IS ONLY VALID WHERE 'type' IS 'S'"
-	}
-	```
-
-	`updateafter` is supplied, but `type` is not 'S'
-	```javascript
-	__invalid: {
-	  "updateafter": "'updateafter' IS ONLY VALID WHERE 'type' IS 'S'"
 	}
 	```
 	
