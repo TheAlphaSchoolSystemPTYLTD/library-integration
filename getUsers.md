@@ -1,4 +1,4 @@
-**getUser**
+**getUsers**
 ----
   Returns an array of Users.
 
