@@ -40,6 +40,7 @@
 		scholasticYear: 9,
 		preferredName: "Lauren",
 		emailAddress: "clark@tassweb.com.au",
+		ceider: "8",
 		firstName: "Lauren Jane",
 		dateOfLeaving: "",
 		updateOn: "04/12/2017",
