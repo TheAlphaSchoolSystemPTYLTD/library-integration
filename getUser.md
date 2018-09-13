@@ -24,7 +24,17 @@
 
    **Conditional:**
 
-   `commtype [string]` - only valid where `type` is 'S'
+   `commtype [string]` - Communication Rule Type. Only valid where `type` is 'S'. Must be one of:
+    ```HTML
+        all - Communication Types
+        aca – Academic Reports
+        att – Attendance
+        ec – Emergency Contact
+        gen – TASS.web Correspondence
+        lw – Student Lives With
+        tk – Teacher Kiosk View
+        tkco – Teacher Kiosk Correspondence
+    ```
 
 * **Success Response:**
 	
