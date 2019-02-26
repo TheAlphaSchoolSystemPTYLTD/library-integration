@@ -48,6 +48,7 @@
 		surname: "Clark",
 		mobilePhone: "0439443653 ",
 		scholasticYear: 9,
+		pcTutorGroup: "001",
 		preferredName: "Lauren",
 		emailAddress: "clark@tassweb.com.au",
 		ceider: "8",
