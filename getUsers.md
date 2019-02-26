@@ -1,6 +1,10 @@
 **getUsers**
 ----
   Returns an array of Users.
+  
+* **Version History:**
+
+	TASS v49.7 (PR9) - New field ("pcTutorGroup") added to the data returned.
 
 * **Version:**
 
