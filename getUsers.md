@@ -4,7 +4,9 @@
   
 * **Version History:**
 
-	TASS v49.7 (PR9) - New field ("pcTutorGroup") added to the data returned.
+  TASS v49.7 (PR9) - New field ("pcTutorGroup") added to the data returned.
+
+  New Property `email2` added in Version 51.4 (PR4).
 
 * **Version:**
 
@@ -70,6 +72,7 @@
 				parentType: "TER",
 				commtypeTkco: "N",
 				email: "paripper@bigpond.com; peterr@tassweb.com.au",
+				email2: "paripper2@bigpond.com",
 				homePhone: "3870 9987",
 				parentCode: "000055",
 				smsFlag2: "Y",
