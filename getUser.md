@@ -10,7 +10,7 @@
 
 	TASS v52.0 - Return 3 new fields `preferred_surname`, `first_name`, `other_name` for each student. Return 16 new fields `m_description`, `m_title`, `m_initials`, `m_surname`, `m_first_name`, `m_other_name`, `m_preferred_name`, `m_suffix`, `f_description`, `f_title`, `f_initials`, `f_surname`, `f_first_name`, `f_other_name`, `f_preferred_name`, `f_suffix` for parent1 & parent2 per address.
 
-	TASS v52.7 - New Properties `alternate_id` & `year_grp_desc` added to the data returned.
+	TASS v52.7 - New Properties `alternateId` & `scholasticYearDesc` added to the data returned.
 
 * **Version:**
 
