@@ -10,8 +10,6 @@
 
 	TASS v52.0 - Return 3 new fields `preferred_surname`, `first_name`, `other_name` for each student. Return 16 new fields `m_description`, `m_title`, `m_initials`, `m_surname`, `m_first_name`, `m_other_name`, `m_preferred_name`, `m_suffix`, `f_description`, `f_title`, `f_initials`, `f_surname`, `f_first_name`, `f_other_name`, `f_preferred_name`, `f_suffix` for parent1 & parent2 per address per user.
 
-	TASS v52.7 - New Properties `alternate_id` & `year_grp_desc` added to the data returned.
-
 * **Version:**
 
   1
@@ -62,13 +60,11 @@
 		"preferredName": "Lauren",
 		"emailAddress": "clark@tassweb.com.au",
 		"ceider": 1951,
-		"scholasticYearDesc": 11,
 		"firstName": "Lauren Jane",
 		"studCode": "0009134",
 		"preferred_surname": "Clark",
 		"dateOfLeaving": "",
 		"currentStatus": "current",
-		"alternateId": "098765432",
 		"first_name": "Lauren",
 		"updateOn": "05/04/2019",
 		"other_name": "Jane",
