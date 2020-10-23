@@ -62,7 +62,6 @@
 
   ```javascript
 	{
-		"type":"S",
 		"userid":"0009068"
 	}
   ```
