@@ -9,6 +9,11 @@ This API extracts the following information required by third-party library mana
 
 **Methods**
 
-  * getPhoto
-  * getUser
-  * getUsers
+  * getEmployee
+  * getEmployeePhoto
+  * getEmployees
+  * getStudent
+  * getStudentPhoto
+  * getStudents
+  * getStudentSubjects
+  * getTeacherSubjects
