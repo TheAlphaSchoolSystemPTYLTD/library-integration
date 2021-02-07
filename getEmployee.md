@@ -35,64 +35,60 @@
 * **Success Response:**
 	
 	```javascript
-	{
-		"__status":"success",
-		"__tassversion":"01.000.043.0",
-		"__invalid":{},
-		"__locks":{},
-		"user":{
-			"mobPhone":"0488067672",
-			"nokAdd2Text":"Bramwell Heights",
-			"positionTitle":"Head of Senior School",
-			"startDate":"04/09/2000",
-			"postCode":4170,
-			"nokPostCode":4170,
-			"nokNameTest":"Amanda Johnson",
-			"add1Text":"12 Holt St",
-			"email":"bill.jiang@tassweb.com.au",
-			"initialsText":"A",
-			"stateText":"QLD",
-			"currentStatus":"current",
-			"schoolEmail":"peter.pumpkin@tassweb.com.au",
-			"supervisor2Code":"",
-			"tchCode":"AJ",
-			"salutationFlag":"Mr",
-			"nokCountryText":"AUSTRALIA",
-			"phoneHText":"3899 4190",
-			"givenNamesText":"Alan Pierre",
-			"username":"ajohnstone",
-			"isTeacher":true,
-			"preferNameText":"Alanx",
-			"id":1000016,
-			"nokCityText":"CANNON HILL",
-			"statusText":"F",
-			"nokPhoneHText":"3899 4190  mob 0427 776 116",
-			"termDate":"",
-			"cityText":"CANNON HILL",
-			"nokPhoneWText":"3217 6654",
-			"positionText":"Teacher",
-			"nameSuffix":"BA, DipTch (MIT), QCT",
-			"dpidText":"",
-			"sexFlag":"M",
-			"smsFlg":"Y",
-			"empCode":1000016,
-			"nokrelatText":"Wife",
-			"phoneWText":38970111,
-			"supervisorCode":"",
-			"surnameText":"O'Johnstonex",
-			"add2Text":"Up the road",
-			"nokAdd1Text":"10 Holt Street",
-			"countryText":"",
-			"superNoText":"",
-			"nokStateText":"QLD",
-			"tchName":"Mr A Johnstone"
-		},
-		"token":{
-			"timestamp":"{ts '2020-10-12 08:44:55'}",
-			"userid":1000016,
-			"type":"E"
+		{
+			"user": {
+					"mobPhone": "0412016500",
+					"nokAdd2Text": "",
+					"positionTitle": "Head of Senior School",
+					"startDate": "04/09/2000",
+					"postCode": 4000,
+					"nokPostCode": 4020,
+					"nokNameTest": "ssdtr",
+					"add1Text": "114 Queen Street",
+					"email": "AJ333@tassweb.com.au",
+					"initialsText": "ASJ",
+					"stateText": "QLD",
+					"currentStatus": "current",
+					"schoolEmail": "AJSCHOOL@TASSWEB.COM",
+					"supervisor2Code": "",
+					"tchCode": "AJ",
+					"salutationFlag": "Mr",
+					"nokCountryText": "AU 333",
+					"phoneHText": "123456789 333",
+					"givenNamesText": "Alan Fred",
+					"username": "ajohnstone",
+					"isTeacher": true,
+					"preferNameText": "Al",
+					"id": 1000016,
+					"nokCityText": "KIPPA RING",
+					"statusText": "F",
+					"nokPhoneHText": "123456789 333",
+					"termDate": "",
+					"cityText": "BRISBANE",
+					"nokPhoneWText": "123456789 333",
+					"positionText": "Teacher",
+					"nameSuffix": "BA, DipTch (MIT), QCT",
+					"dpidText": "",
+					"sexFlag": "U",
+					"smsFlg": "Y",
+					"empCode": 1000016,
+					"nokrelatText": "Slave",
+					"phoneWText": "123456789 333",
+					"supervisorCode": "",
+					"surnameText": "Johnstone",
+					"add2Text": "Bowen Hills",
+					"nokAdd1Text": "Borella Circuit",
+					"countryText": "",
+					"superNoText": "",
+					"nokStateText": "QLD",
+					"tchName": "Mr A O'Johnstone"
+			},
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-20 15:32:57'}",
+					"userid": 1000016
+			}
 		}
-	}
 	```
  
 * **Error Response:**
@@ -107,9 +103,7 @@
 * **Sample Parameters:**
 
   ```javascript
-	{
-		'userid':'1000016'
-	}
+	{'userid':'1000016'}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

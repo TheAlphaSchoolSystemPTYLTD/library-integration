@@ -35,66 +35,62 @@
 * **Success Response:**
 	
 	```javascript
-	{
-		"__status":"success",
-		"__tassversion":"01.000.043.0",
-		"__invalid":{},
-		"__locks":{},
-		"users":[
-			{
-				"mobPhone":"0426 275 323",
-				"nokAdd2Text":"",
-				"positionTitle":"Title",
-				"startDate":"11/05/1993",
-				"postCode":4000,
-				"nokPostCode":"",
-				"nokNameTest":"Alli",
-				"add1Text":"32 Giles Ct",
-				"email":"N.Allibone@alphabus.com.au",
-				"initialsText":"NC",
-				"stateText":"QLD",
-				"currentStatus":"current",
-				"schoolEmail":"Nikola.Allibone@alphabus.com.aubnm",
-				"supervisor2Code":"",
-				"tchCode":"NA1",
-				"salutationFlag":"Mr",
-				"nokCountryText":"",
-				"phoneHText":"07 3546 2041",
-				"givenNamesText":"Nikola Craig",
-				"username":"",
-				"isTeacher":true,
-				"preferNameText":"Niki",
-				"id":1000066,
-				"nokCityText":"",
-				"statusText":"F",
-				"nokPhoneHText":"",
-				"termDate":"",
-				"cityText":"MOUNT OMMANEY",
-				"nokPhoneWText":"",
-				"positionText":"Manager",
-				"nameSuffix":"",
-				"dpidText":"",
-				"sexFlag":"M",
-				"smsFlg":"N",
-				"empCode":1000066,
-				"nokrelatText":"",
-				"phoneWText":"07 3542 2542",
-				"supervisorCode":"",
-				"surnameText":"Allibone",
-				"add2Text":"",
-				"nokAdd1Text":"",
-				"countryText":"",
-				"superNoText":"",
-				"nokStateText":"",
-				"tchName":"Mr N A'llibone"
+		{
+			"users": [
+					{
+						"mobPhone": "0426505880",
+						"nokAdd2Text": "8 Land Street",
+						"positionTitle": "",
+						"startDate": "03/05/1995",
+						"postCode": 4023,
+						"nokPostCode": 4066,
+						"nokNameTest": "Alan C",
+						"add1Text": "1 Calculon Terrace",
+						"email": "C.Allan@alphabus.com.au",
+						"initialsText": "CE",
+						"stateText": "QLD",
+						"currentStatus": "current",
+						"schoolEmail": "Cody.Allan@alphabus.com.au",
+						"supervisor2Code": "",
+						"tchCode": "CAL",
+						"salutationFlag": "Capt",
+						"nokCountryText": "",
+						"phoneHText": "07 3419 3693",
+						"givenNamesText": "Cody Ethan",
+						"username": "",
+						"isTeacher": true,
+						"preferNameText": "Cody",
+						"id": 9000001,
+						"nokCityText": "TOOWONG",
+						"statusText": "F",
+						"nokPhoneHText": "",
+						"termDate": "",
+						"cityText": "BOWEN HILLS",
+						"nokPhoneWText": "",
+						"positionText": "",
+						"nameSuffix": "",
+						"dpidText": "",
+						"sexFlag": "U",
+						"smsFlg": "Y",
+						"empCode": 9000001,
+						"nokrelatText": "Buddy",
+						"phoneWText": "07 3550 7398",
+						"supervisorCode": 1000016,
+						"surnameText": "Allan",
+						"add2Text": "left hand side",
+						"nokAdd1Text": "Unit 810",
+						"countryText": "",
+						"superNoText": "",
+						"nokStateText": "QLD",
+						"tchName": "Mr C Allan"
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+						"timestamp": "{ts '2021-01-20 16:00:16'}",
+						"currentstatus": "current"
 			}
-		],
-		"token":{
-			"timestamp":"{ts '2020-10-12 09:01:37'}",
-			"currentstatus":"current",
-			"type":"E"
 		}
-	}
   ```
  
 * **Error Response:**
@@ -122,9 +118,7 @@
 * **Sample Parameters:**
 
   ```javascript
-	{
-		'currentstatus':'current'
-	}
+	{'currentstatus':'current'}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

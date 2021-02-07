@@ -35,10 +35,17 @@
 * **Success Response:**
 	
 	```javascript
-	file_info: {
-			image: [Base64 encoded image string],
-			file_name: "0009068.jpg",
-			mime_type: "image/jpeg"
+		{
+			"file_info": {
+					"image": "[Base64 encoded image string]",
+					"file_name": "0009068.jpg",
+					"mime_type": "image/jpeg"
+			},
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"stud_code": "0009068",
+					"timestamp": "{ts '2021-01-20 16:07:52'}"
+			}
 		}
   ```
  
@@ -61,9 +68,7 @@
 * **Sample Parameters:**
 
   ```javascript
-	{
-		"userid":"0009068"
-	}
+	{"stud_code":"0009068"}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

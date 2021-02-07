@@ -35,10 +35,18 @@
 * **Success Response:**
 	
 	```javascript
-	file_info: {
-			image: [Base64 encoded image string],
-			file_name: "0009068.jpg",
-			mime_type: "image/jpeg"
+		{
+			"file_info": {
+					"image": "[Base64 encoded image string]",
+					"file_name": "Unavailable.gif",
+					"mime_type": "image/gif"
+			},
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-20 15:58:13'}",
+					"emp_code": 1000016,
+					"type": "E"
+			}
 		}
   ```
  
@@ -62,7 +70,7 @@
 
   ```javascript
 	{
-		"userid":"1000016"
+		"emp_code":"1000016"
 	}
   ```
 
