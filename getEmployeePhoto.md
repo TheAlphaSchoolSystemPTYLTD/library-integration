@@ -22,7 +22,7 @@
 
    **Required:**
 
-   `stud_code [string]` - Student Code
+   `emp_code [string]` - Employee Code
    
    **Optional:**
  
@@ -69,7 +69,9 @@
 * **Sample Parameters:**
 
   ```javascript
-	{"type":"E","emp_code":"1000016"}
+	{
+		"emp_code":"1000016"
+	}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)
