@@ -22,7 +22,7 @@
 
    **Required:**
 
-   `stud_code [string]` - Student Code
+   `emp_code [string]` - Employee Code
    
    **Optional:**
  
@@ -62,7 +62,6 @@
 
   ```javascript
 	{
-		"type":"E",
 		"userid":"1000016"
 	}
   ```
