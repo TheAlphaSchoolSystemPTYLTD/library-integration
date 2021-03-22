@@ -54,6 +54,13 @@
 						"supervisor2Code": "",
 						"tchCode": "CAL",
 						"salutationFlag": "Capt",
+						"campus": [
+						"Argyle Street Campus",
+						"Junior School (Billabong Road)",
+						"Just made it up campus with 12",
+						"Senior School (Curlew St)",
+						"Thompson Street Campus"
+						],
 						"nokCountryText": "",
 						"phoneHText": "07 3419 3693",
 						"givenNamesText": "Cody Ethan",
@@ -85,7 +92,7 @@
 						"tchName": "Mr C Allan"
 					}
 			],
-			"__tassversion": "01.053.3.000",
+			"__tassversion": "01.053.3.138",
 			"token": {
 						"timestamp": "{ts '2021-01-20 16:00:16'}",
 						"currentstatus": "current"
@@ -117,7 +124,7 @@
 	```
 * **Sample Parameters:**
 
-  ```javascript
+  	```javascript
 	{'currentstatus':'current'}
   ```
 

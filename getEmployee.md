@@ -53,6 +53,9 @@
 					"supervisor2Code": "",
 					"tchCode": "AJ",
 					"salutationFlag": "Mr",
+					campus": [
+					"Senior School (Curlew St)"
+					],
 					"nokCountryText": "AU 333",
 					"phoneHText": "123456789 333",
 					"givenNamesText": "Alan Fred",
@@ -83,7 +86,7 @@
 					"nokStateText": "QLD",
 					"tchName": "Mr A O'Johnstone"
 			},
-			"__tassversion": "01.053.3.000",
+			"__tassversion": "01.053.3.138",
 			"token": {
 					"timestamp": "{ts '2021-01-20 15:32:57'}",
 					"userid": 1000016
@@ -102,8 +105,8 @@
 	
 * **Sample Parameters:**
 
-  ```javascript
-	{'userid':'1000016'}
+  	```javascript
+		{'userid':'1000016'}
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

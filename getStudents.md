@@ -64,6 +64,9 @@
 						"ceider": 2,
 						"scholasticYearDesc": 11,
 						"firstName": "Edith Nell Blue Healer Bitzer Edith Nell Other Bell Nell",
+						"campus": [
+						"Senior School (Curlew St)"
+						],
 						"studCode": "0009069",
 						"preferred_surname": "Agnew",
 						"dateOfLeaving": "",
@@ -147,7 +150,7 @@
 						]
 					}
 			],
-			"__tassversion": "01.053.3.000",
+			"__tassversion": "01.053.3.138",
 			"token": {
 					"timestamp": "{ts '2021-01-20 16:10:40'}",
 					"currentstatus": "current"
