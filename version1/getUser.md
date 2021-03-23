@@ -12,6 +12,8 @@
 
 	TASS v52.7 - New Properties `alternateId` & `scholasticYearDesc` added to the data returned.
 
+	TASS v54.4 - Campus data has been added to the response
+
 * **Version:**
 
   1
@@ -64,6 +66,9 @@
 			"ceider": "23wrrthhw",
 			"scholasticYearDesc": 11,
 			"firstName": "Andréa Joan",
+			"campus": [
+			"Banana Cmpy 10 Campus"
+			],
 			"studCode": "0009130",
 			"preferred_surname": "Clark",
 			"dateOfLeaving": "",
@@ -142,6 +147,7 @@
 			"birthday": "02/09/1994",
 			"rollClass": "D"
 		},
+		"__tassversion": "01.053.3.138",
 		"token": {
 			"commtype": "TK",
 			"timestamp": "{ts '2019-11-27 15:06:41'}",
