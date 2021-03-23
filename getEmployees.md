@@ -6,6 +6,8 @@
 
 	TASS v54.0 - Method Added
 
+	TASS v54.4 - Campus data has been added to the response
+
 * **Version:**
 
 	3
