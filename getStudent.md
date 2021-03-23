@@ -6,6 +6,8 @@
 
 	TASS v54.0 - Method Added
 
+	TASS v54.4 - Campus data has been added to the response
+
 * **Version:**
 
   3
@@ -57,6 +59,9 @@
 					"ceider": "23wrrthhw",
 					"scholasticYearDesc": 11,
 					"firstName": "Andréa Joan",
+					"campus": [
+					"Banana Cmpy 10 Campus"
+					],
 					"studCode": "0009130",
 					"preferred_surname": "Clark",
 					"dateOfLeaving": "",
@@ -135,7 +140,7 @@
 					"birthday": "02/09/1994",
 					"rollClass": "F"
 			},
-			"__tassversion": "01.053.3.000",
+			"__tassversion": "01.053.3.138",
 			"token": {
 					"commtype": "TK",
 					"timestamp": "{ts '2021-01-20 16:02:31'}",
