@@ -8,6 +8,8 @@
 
 	TASS v54.4 - Campus data has been added to the response
 
+	TASS v57.11 - Ceider data has been added to the response
+
 * **Version:**
 
 	3
@@ -91,12 +93,13 @@
 						"countryText": "",
 						"superNoText": "",
 						"nokStateText": "QLD",
-						"tchName": "Mr C Allan"
+						"tchName": "Mr C Allan",
+						"ceider": 11779
 					}
 			],
-			"__tassversion": "01.053.3.138",
+			"__tassversion": "01.057.11.000",
 			"token": {
-						"timestamp": "{ts '2021-01-20 16:00:16'}",
+						"timestamp": "{ts '2022-09-28 16:42:57'}",
 						"currentstatus": "current"
 			}
 		}
