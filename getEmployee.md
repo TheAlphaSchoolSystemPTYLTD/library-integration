@@ -10,6 +10,8 @@
 
 	TASS v57.11 - Ceider data has been added to the response
 
+	TASS v60.02 - Alternate id has been added to the response
+
 * **Version:**
 
   3
@@ -89,7 +91,8 @@
 					"superNoText": "",
 					"nokStateText": "QLD",
 					"tchName": "Mr A O'Johnstone",
-					"ceider": 11540
+					"ceider": 11540,
+					"alternateId": ""
 			},
 			"__tassversion": "01.057.11.000",
 			"token": {
